@@ -1,13 +1,18 @@
+body{
+    background-color:  black;
+}
+
+
 .container {
   display: flex;
-  background-color: DodgerBlue;
+  background-color: gray;
   flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: center;
 }
 
 .box{
-    background-color: #f1f1f1;
+    background-color: lightslategray;
   margin: 10px;
   padding: 20px;
   font-size: 24px;
@@ -16,7 +21,7 @@
 
 .box1 {
     order: 3;
-    background-color: cyan;
+    background-color: lightslategray;
 }
 
 .box2{
